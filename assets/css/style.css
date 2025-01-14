@@ -971,6 +971,113 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Co-curricular Section
+--------------------------------------------------------------*/
+.cocurricular {
+  padding: 60px 0;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.cocurricular .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cocurricular .section-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #18d26e;
+}
+
+.cocurricular .section-title p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Info Boxes */
+.cocurricular .info-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cocurricular .info-box i.bx {
+  font-size: 40px;
+  color: #18d26e;
+  margin-bottom: 20px;
+}
+
+/* Hobbies Section */
+.cocurricular .info-box .hobby-item {
+  margin-bottom: 30px;
+}
+
+.cocurricular .info-box .hobby-item h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+
+.cocurricular .info-box .hobby-item p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+/* Video styling for Cycling */
+.cocurricular .info-box .hobby-item video {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Positions of Responsibility Section */
+.cocurricular .info-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.cocurricular .info-box ul li {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.cocurricular .info-box ul li::before {
+  content: "\2022"; /* Bullet Point */
+  color: #18d26e;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+  .cocurricular .row .col-md-6 {
+    margin-bottom: 30px;
+  }
+
+  .cocurricular .info-box {
+    padding: 20px;
+  }
+
+  .cocurricular .section-title h2 {
+    font-size: 28px;
+  }
+
+  .cocurricular .section-title p {
+    font-size: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
